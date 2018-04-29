@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AndroidLearning</string>
+
+    <string name="buttonRegister">Register</string>
+    <string name="Name">Name</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Age">Age</string>
+    <string name="buttonLogin">Login</string>
+    <string name="tRegisterHere">Register Here</string>
+    <string name="showUserInfo">Show User Info</string>
+    <string name="mainButton">抓資料</string>
+    <string name="create">create</string>
+
+    <!--CRUD Test-->
+    <string name="toShow">toShow</string>
+    <string name="textCreate">textCreate</string>
+    <string name="editCreate">新增對象</string>
+    <string name="buttonCreate">buttonCreate</string>
+    <string name="buttonRead">buttonRead</string>
+    <string name="textRead">textRead</string>
+    <string name="editUpdateMember">更新對象</string>
+    <string name="editUpdateCard">更新卡號</string>
+    <string name="editUpdateNumber">更新數值</string>
+    <string name="buttonUpdate">buttonUpdate</string>
+    <string name="editDelete">刪除對象</string>
+    <string name="buttonDelete">buttonDelete</string>
+
+    <!--Create table by Java-->
+
+</resources>

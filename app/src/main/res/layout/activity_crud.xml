@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.j32u4ukh.androidlearning.CRUD">
+
+    <!--ScrollView-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--Create-->
+
+        <Button
+            android:id="@+id/toShow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/toShow" />
+
+        <LinearLayout
+            android:id="@+id/Create"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/light_blue"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textCreate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/textCreate"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/editCreate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="8"
+                android:hint="@string/editCreate"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/buttonCreate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/buttonCreate" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Read"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/light_green"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonRead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonRead" />
+
+            <TextView
+                android:id="@+id/textRead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textRead" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Update"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/light_purple"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editUpdateMember"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/editUpdateMember"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editUpdateCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/editUpdateCard"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editUpdateNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/editUpdateNumber"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/buttonUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonUpdate" />
+        </LinearLayout>
+
+        <!--Read-->
+
+        <!--Update-->
+
+        <!--Delete-->
+        <LinearLayout
+            android:id="@+id/Delete"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/light_red"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editDelete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="@string/editDelete" />
+
+            <Button
+                android:id="@+id/buttonDelete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonDelete" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
